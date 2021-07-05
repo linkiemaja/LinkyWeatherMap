@@ -1,6 +1,5 @@
 package com.example.linkyweathermap;
 
-package com.example.weatherforecasting1313;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             findViewById(R.id.button2).setVisibility(View.GONE);
         }
         protected String doInBackground(String args[]) {
-            String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weatherq="+CITY1+"&units=metric&appid=73cbebdd0322acd49bda6ede059b2b18");
+            String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weatherq="+CITY1+"&units=metric&appid=104f722b9c4509b5a5e28d141331db1d");
             return response;
         }
         @Override

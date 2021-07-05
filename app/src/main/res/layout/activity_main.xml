@@ -243,7 +243,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="131dp"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textNoSuggestions"
             android:hint="ENTER NAME OF CITY"
             android:textColor="#000000"/>
 

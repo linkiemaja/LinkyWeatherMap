@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LinkyWeatherMap</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="enter_name_of_city">ENTER NAME OF CITY</string>
+    <string name="search_temperature">SEARCH TEMPERATURE</string>
+    <string name="something_went_wrong">Something went wrong</string>
 </resources>
