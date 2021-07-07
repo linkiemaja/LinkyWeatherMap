@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             findViewById(R.id.button2).setVisibility(View.GONE);
         }
         protected String doInBackground(String args[]) {
-            String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weatherq="+CITY1+"&units=metric&appid=104f722b9c4509b5a5e28d141331db1d");
+            String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weather?q="+CITY1+"&units=metric&appid=58e9907ae6ce1a550750888f0e443c92");
             return response;
         }
         @Override
